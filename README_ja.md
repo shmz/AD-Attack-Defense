@@ -79,6 +79,7 @@
 * [From Kekeo to Rubeus](https://www.harmj0y.net/blog/redteaming/from-kekeo-to-rubeus/)
 * [S4U2Pwnage](http://www.harmj0y.net/blog/activedirectory/s4u2pwnage/)
 * [Kerberos Delegation, Spns And More...](https://www.secureauth.com/blog/kerberos-delegation-spns-and-more)
+* [Wagging the Dog: Abusing Resource-Based Constrained Delegation to Attack Active Directory](https://shenaniganslabs.io/2019/01/28/Wagging-the-Dog.html)
 
 ### Insecure Group Policy Object Permission Rights
 * [Abusing GPO Permissions](https://www.harmj0y.net/blog/redteaming/abusing-gpo-permissions/)
@@ -122,6 +123,15 @@
 ### Red Forest
 * [Attack and defend Microsoft Enhanced Security Administrative](https://download.ernw-insight.de/troopers/tr18/slides/TR18_AD_Attack-and-Defend-Microsoft-Enhanced-Security.pdf)
 
+### Exchange
+* [Exchange-AD-Privesc](https://github.com/gdedrouas/Exchange-AD-Privesc)
+* [Abusing Exchange: One API call away from Domain Admin](https://dirkjanm.io/abusing-exchange-one-api-call-away-from-domain-admin/)
+* [NtlmRelayToEWS](https://github.com/Arno0x/NtlmRelayToEWS)
+
+### NTML Relay
+* [Pwning with Responder – A Pentester’s Guide](https://www.notsosecure.com/pwning-with-responder-a-pentesters-guide/)
+* [Practical guide to NTLM Relaying in 2017 (A.K.A getting a foothold in under 5 minutes)](https://byt3bl33d3r.github.io/practical-guide-to-ntlm-relaying-in-2017-aka-getting-a-foothold-in-under-5-minutes.html)
+* [Relaying credentials everywhere with ntlmrelayx](https://www.fox-it.com/en/insights/blogs/blog/inside-windows-network/)
 ------
 
 ## 横展開
@@ -233,7 +243,6 @@ Advanced Threat Protection and Advanced Threat Analytics](https://www.blackhat.c
 * [Dump Clear-Text Passwords for All Admins in the Domain Using Mimikatz DCSync](https://adsecurity.org/?p=2053)
 
 ### LLMNR/NBT-NS ポイズニング
-* [Pwning with Responder – A Pentester’s Guide](https://www.notsosecure.com/pwning-with-responder-a-pentesters-guide/)
 * [LLMNR/NBT-NS Poisoning Using Responder](https://www.4armed.com/blog/llmnr-nbtns-poisoning-using-responder/)
 
 ### その他
@@ -400,6 +409,7 @@ Advanced Threat Protection and Advanced Threat Analytics](https://www.blackhat.c
 |Skeleton Keys|4673: 特権を持つサービスが呼び出されました。<br>4611: 信頼されたログオン プロセスがローカル セキュリティ機関に登録されています。<br>4688: 新しいプロセスが作成されました。<br>4689: プロセスが終了しました。|
 |PYKEK MS14-068|4672: 特殊なログオン<br>4624: アカウントが正常にログオンしました。<br>4768: Kerberos認証サービス|
 |Kerberoasting|4769: Kerberos サービス チケットが要求されました。|
+|S4U2Proxy|4769: Kerberos サービス チケットが要求されました。|
 |横展開|4688: 新しいプロセスが作成されました。<br>4689: プロセスが終了しました。<br>4624: アカウントが正常にログオンしました。<br>4625: アカウントがログオンに失敗しました。|
 |DNSAdmin|770: DNS Server plugin DLL has been loaded<br>541: The setting serverlevelplugindll on scope . has been set to `<dll path>`<br>150: DNS Server could not load or initialize the plug-in DLL|
 |DCSync|4662: オブジェクトの操作を実行しました。|
