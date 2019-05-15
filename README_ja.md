@@ -105,6 +105,7 @@
 * [The Forest Is Under Control. Taking over the entire Active Directory forest](https://hackmag.com/security/ad-forest/)
 * [Not A Security Boundary: Breaking Forest Trusts](https://posts.specterops.io/not-a-security-boundary-breaking-forest-trusts-cd125829518d)
 * [The Trustpocalypse](http://www.harmj0y.net/blog/redteaming/the-trustpocalypse/)
+* [Pentesting Active Directory Forests](https://www.dropbox.com/s/ilzjtlo0vbyu1u0/Carlos%20Garcia%20-%20Rooted2019%20-%20Pentesting%20Active%20Directory%20Forests%20public.pdf?dl=0)
 
 ### DCShadow
 * [Privilege Escalation With DCShadow](https://blog.stealthbits.com/privilege-escalation-with-dcshadow/)
@@ -236,6 +237,7 @@ Advanced Threat Protection and Advanced Threat Analytics](https://www.blackhat.c
 
 ### Windows Credential Manager/Vault
 * [Operational Guidance for Offensive User DPAPI Abuse](https://www.harmj0y.net/blog/redteaming/operational-guidance-for-offensive-user-dpapi-abuse/)
+* [Jumping Network Segregation with RDP](https://rastamouse.me/2017/08/jumping-network-segregation-with-rdp/)
 
 ### DCSync
 * [Mimikatz and DCSync and ExtraSids, Oh My](https://www.harmj0y.net/blog/redteaming/mimikatz-and-dcsync-and-extrasids-oh-my/)
@@ -315,10 +317,14 @@ Advanced Threat Protection and Advanced Threat Analytics](https://www.blackhat.c
 * [DogWhisperer - BloodHound Cypher Cheat Sheet (v2)](https://github.com/SadProcessor/Cheats/blob/master/DogWhispererV2.md)
 * [PowerView-3.0 tips and tricks](https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993)
 * [PowerView-2.0 tips and tricks](https://gist.github.com/HarmJ0y/3328d954607d71362e3c)
+
+## Other Resources
+* [Tactics, Techniques and Procedures for Attacking Active Directory BlackHat Asia 2019](https://docs.google.com/presentation/d/1j2nW05H-iRz7-FVTRh-LBXQm6M6YIBQNWa4V7tp99YQ/)
 ------
 
 ## 防衛＆検知
 ### ツール＆スクリプト
+* [Create-Tiers in AD](https://github.com/davidprowe/AD_Sec_Tools) - Project Title Active Directory Auto Deployment of Tiers in any environment
 * [SAMRi10](https://gallery.technet.microsoft.com/SAMRi10-Hardening-Remote-48d94b5b)  - Windows 10/Server 2016でのSAMリモートアクセスの強化
 * [Net Cease](https://gallery.technet.microsoft.com/Net-Cease-Blocking-Net-1e8dcb5b)  - ネットセッション列挙の強化
 * [PingCastle](https://www.pingcastle.com/) - リスク評価と成熟度フレームワークに基づいた方法で、Active Directoryのセキュリティレベルを迅速に評価するように設計されたツール
@@ -329,6 +335,7 @@ Advanced Threat Protection and Advanced Threat Analytics](https://www.blackhat.c
 * [dcept](https://github.com/secureworks/dcept) - Active Directory honeytokenの展開と使用を検出するためのツール
 * [LogonTracer](https://github.com/JPCERTCC/LogonTracer) - Windowsイベントログを視覚化および分析して、悪意のあるWindowsログオンを調査する
 * [DCSYNCMonitor](https://github.com/shellster/DCSYNCMonitor) - DCSYNCおよびDCSHADOW攻撃を監視し、これらのイベントに対するカスタムWindowsイベントを作成します。
+* [Sigma](https://github.com/Neo23x0/sigma/) - SIEMシステム向けのシグネチャフォーマット
 
 ### Active Directory セキュリティチェック (by Sean Metcalf - @Pyrotek3)
 
@@ -418,6 +425,8 @@ Advanced Threat Protection and Advanced Threat Analytics](https://www.blackhat.c
 ### リソース
 * [ASD Strategies to Mitigate Cyber Security Incidents](https://acsc.gov.au/publications/Mitigation_Strategies_2017.pdf)
 * [Reducing the Active Directory Attack Surface](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/reducing-the-active-directory-attack-surface)
+* [Changes to Ticket-Granting Ticket (TGT) Delegation Across Trusts in Windows Server (AskPFEPlat edition)](https://blogs.technet.microsoft.com/askpfeplat/2019/04/11/changes-to-ticket-granting-ticket-tgt-delegation-across-trusts-in-windows-server-askpfeplat-edition/)
+* [Active Directory: Ultimate Reading Collection](https://social.technet.microsoft.com/wiki/contents/articles/20964.active-directory-ultimate-reading-collection.aspx)
 * [Securing Domain Controllers to Improve Active Directory Security](https://adsecurity.org/?p=3377)
 * [Securing Windows Workstations: Developing a Secure Baseline](https://adsecurity.org/?p=3299)
 * [Implementing Secure Administrative Hosts](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-secure-administrative-hosts)
